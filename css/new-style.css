@@ -14,7 +14,6 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-
 .wrapper {
     height: 845px;
     background: url('../image/bg.jpg') no-repeat;
@@ -29,8 +28,8 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -62,14 +61,14 @@ header {
     border-bottom: 2px solid #edbfff;
 }
 
+.menu-480 {
+    display: none;
+}
+
 .wrapper-slider {
     height: 400px;
     margin-top: 170px;
     background-color: rgba(0, 0, 0, .3);
-}
-
-.menu-480 {
-    display: none;
 }
 
 .wrapper-slider-content {
@@ -111,17 +110,16 @@ header {
 }
 
 .wrapper-navigation {
-    float: right;
     margin-top: 95px;
     margin-right: 300px;
-    /*margin-left: 970px;*/
+    float: right;
 }
 
 .about-us {
     height: 340px;
-    background-color: #3b2b43;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
+    background-color: #3b2b43;
 }
 
 .about-us-container {
@@ -133,19 +131,19 @@ header {
 }
 
 .about-us-container img {
-    float: left;
     width: 25px;
     height: 25px;
     margin-top: 90px;
     margin-right: 25px;
+    float: left;
 }
 
 .about-us-container-text {
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
     width: 230px;
     margin-top: 80px;
+    line-height: 1.5;
 }
 
 .about-us-container-text h1 {
@@ -165,14 +163,14 @@ header {
     color: #fff;
     font-family: 'League Gothic';
     font-size: 18px;
-    text-decoration: none;
     text-align: end;
+    text-decoration: none;
 }
 
 .wrapper-2 {
-    background-color: #f9f9f9;
     height: 485px;
     border-top: 1px solid #fff;
+    background-color: #f9f9f9;
 }
 
 .wrapper-2-container {
@@ -189,7 +187,7 @@ header {
     width: 430px;
     height: 270px;
     margin-top: 100px;
-    background: url("../image/Layer 60.png") no-repeat;
+    background: url('../image/Layer 60.png') no-repeat;
     background-size: 100%;
     line-height: 1.5;
 }
@@ -238,45 +236,45 @@ header {
 }
 
 .wrapper-2-container-updates-p {
-    float: right;
     margin-top: 30px;
+    float: right;
     font-family: 'League Gothic';
     font-size: 18px;
     text-align: end;
 }
 
 .wrapper-2-container-updates h1 {
-font-family: 'League Gothic';
-font-size: 30px;
-font-weight: normal;
+    font-family: 'League Gothic';
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .wrapper-2-container-updates ul {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .wrapper-2-container-updates li {
-display: flex;
-flex-direction: row;
-margin-top: 20px;
-list-style: none;
-font-family: 'Open Sans';
-font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    list-style: none;
 }
 
 .wrapper-2-container-updates img {
-width: 45px;
-height: 45px;
-margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
 }
 
 .wrapper-3 {
-    background-color: #f9f9f9;
     height: 120px;
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
+    background-color: #f9f9f9;
 }
 
 .wrapper-3-container {
@@ -287,13 +285,17 @@ margin-right: 20px;
     margin: 25px auto;
 }
 
+.wrapper-3 img:nth-child(2) {
+    display: none;
+}
+
 .wrapper-3 img:last-child {
     display: none;
 }
 
 .wrapper-4 {
-    background-color: #ececec;
     height: 395px;
+    background-color: #ececec;
 }
 
 .wrapper-4-container {
@@ -324,7 +326,7 @@ margin-right: 20px;
 
 .wrapper-5 {
     height: 115px;
-    background: url("../image/footer.png") no-repeat;
+    background: url('../image/footer.png') no-repeat;
 }
 
 .wrapper-5-container {
@@ -335,8 +337,8 @@ margin-right: 20px;
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 115px;
 }
 
