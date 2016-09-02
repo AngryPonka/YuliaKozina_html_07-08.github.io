@@ -26,11 +26,16 @@
         display: none;
     }
 
+    .parent-list {
+        position: relative;
+    }
+
     .menu-480 {
         display: block;
         flex-direction: column;
         justify-content: space-between;
         list-style: none;
+        position: absolute;
     }
 
     .menu-480 li {
@@ -54,6 +59,7 @@
         align-items: center;
         justify-content: space-between;
         width: 240px;
+        margin-top: -20px;
         margin-left: -100px;
         border: 1px solid #0e181e;
         border-radius: 15px;
